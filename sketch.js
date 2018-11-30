@@ -41,6 +41,7 @@ function preload()
 function setup () 
 {
   const theCanvas = createCanvas(canvasWidth, canvasHeight);
+  theCanvas.parent = "gameContainer";
   //canvas.parent('canvas');
 
   theCanvas.style('display', 'block');
